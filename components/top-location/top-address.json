@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_top_location_top_addresses",
+  "info": {
+    "name": "topAddress",
+    "icon": "warehouse"
+  },
+  "options": {},
+  "attributes": {
+    "phoneNumber": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    }
+  }
+}

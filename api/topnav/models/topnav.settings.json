@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "topnavs",
+  "info": {
+    "name": "topnav"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "topAddress": {
+      "type": "component",
+      "repeatable": true,
+      "component": "top-location.top-address"
+    },
+    "msg": {
+      "type": "string"
+    }
+  }
+}

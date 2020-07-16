@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/topnavs",
+      "handler": "topnav.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/topnavs/count",
+      "handler": "topnav.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/topnavs/:id",
+      "handler": "topnav.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/topnavs",
+      "handler": "topnav.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/topnavs/:id",
+      "handler": "topnav.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/topnavs/:id",
+      "handler": "topnav.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

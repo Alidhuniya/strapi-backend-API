@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_menus_nav_menus",
+  "info": {
+    "name": "navMenus",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "navLink": {
+      "type": "string"
+    }
+  }
+}
